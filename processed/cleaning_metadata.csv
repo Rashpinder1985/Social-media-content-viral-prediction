@@ -1,0 +1,7 @@
+item,value
+virality_percentile,0.9
+virality_threshold,0.2235294117647059
+train_rows,19793.0
+test_rows,4949.0
+feature_count,377.0
+viral_rate_overall,0.10015358499717081
