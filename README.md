@@ -79,6 +79,20 @@ See `processed/knn_results/KNN_SUMMARY.md` and `processed/kmeans_results/KMEANS_
 
 ---
 
+## ML improvements (imbalance & thresholds)
+
+Advanced experiments (separate folder, does not change the main pipeline):
+
+```bash
+cd ml_improvements
+pip install -r requirements.txt
+python run_experiments.py
+```
+
+See `ml_improvements/README.md` and `ml_improvements/results/ML_IMPROVEMENTS_REPORT.md`.
+
+---
+
 ## Note on large files
 
 `train_scaled.csv` and `test_scaled.csv` are **not** on GitHub (too large). They are created when you run `data_cleaning.py`.
